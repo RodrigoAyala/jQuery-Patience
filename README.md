@@ -2,8 +2,8 @@
 
 ## Status
 
-(27/11/2011) Not usable for now, the plugin it's in development. 
-(28/11/2011) Yes! Now you can use it!
+* (27/11/2011) Not usable for now, the plugin it's in development. 
+* (28/11/2011) Yes! Now you can use it!
 
 ## Introduction
 
