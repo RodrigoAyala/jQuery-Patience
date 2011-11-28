@@ -3,7 +3,7 @@
 <head>
   <meta charset='utf-8'>
 
-  <title>RodrigoAyala/jQuery-Patience @ GitHub</title>
+  <title>jQuery-Patience / Loading div for your ajax calls</title>
 
   <style type="text/css">
     body {
@@ -46,7 +46,7 @@
       <span class="small">by <a href="https://github.com/RodrigoAyala">RodrigoAyala</a></span></h1>
 
     <div class="description">
-      A jquery plugin to make your users to wait your ajax calls
+      A jQuery Plugin to make your users to wait your ajax calls
     </div>
 
     
@@ -57,40 +57,49 @@ It works out-of-the-box, this means that you don't need to add new stylesheets t
 
     
       <h2>Dependencies</h2>
-      <p>jQuery</p>
+      <p><a href="http://jquery.com">jQuery (>=1.6.0)</a></p>
     
 
     
       <h2>Install</h2>
-      <p>It's simple!, add the plugin to the HTML, and in the HEAD section, add this: <meta name="patience" content="true">
+      <p>It's simple!, add the plugin to the HTML, and in the HEAD section, add this: <br/>
+      <pre>&lt;meta name=&quot;patience&quot; content=&quot;true&quot;&gt;</pre>
 
-And that's it!
+And that's it!<br/><br/>
 
-Anyway, you can customize the loading div, instead of add the meta "patience", call $.patience with some options like:
+Anyway, you can customize the loading div, instead of add the meta "patience", call $.patience with some options like:<br>
 
-    loading_image: path of the loading icon
-    message: message that will be shown inside the div, something like "Loading..." or "Wait please..."
-    height: height of the div
-    width: width of the div
+<pre>
+loading_image: path of the loading icon
+message: message that will be shown inside the div, something like "Loading..." or "Wait please..."
+height: height of the div
+width: width of the div
+</pre>
 
-Or if you want to use your own div: * div_loading: name of the div that you created by your own to be shown.
+Or if you want to use your own div: 
 
-e.g.: $.patience({message: "Wait please!",height:200,width:200});</p>
+<pre>
+div_loading: name of the div that you created by your own to be shown.
+</pre>
+<br/>
+
+e.g.: 
+<pre>
+$.patience({message: "Wait please!",height:200,width:200});
+</pre>
+
+</p>
     
-
+<h2>Example</h2>
+<p> See this <a href="example.html">example</a>, live! </p>
     
       <h2>License</h2>
       <p>GPLv3</p>
     
 
     
-      <h2>Authors</h2>
-      <p>Rodrigo Ayala (rayalac@yahoo.com)<br/>      </p>
-    
-
-    
-      <h2>Contact</h2>
-      <p>Rodrigo Ayala (rayalac@yahoo.com)<br/>      </p>
+      <h2>Author</h2>
+      <p><a href="http://twitter.com/RodrigoAyala">Rodrigo Ayala</a><br/>      </p>
     
 
     <h2>Download</h2>
