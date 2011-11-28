@@ -37,3 +37,8 @@ Or if you want to use your own div:
 e.g.: 
     $.patience({message: "Wait please!",height:200,width:200});
 
+## Author
+
+[Rodrigo Ayala](http://twitter.com/RodrigoAyala)
+
+
