@@ -17,5 +17,6 @@ I'm writing this plugin by a need as a developer, in my work we use a lot of Aja
 ## How to use
 
 It's simple!, add the plugin to the HTML, and in the HEAD section, add this:
+    <meta name="patience" content="true">
 
-  <meta name="patience" content="true">
+And that's it!
