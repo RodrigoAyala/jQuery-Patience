@@ -1,5 +1,4 @@
-jquery-patience
-===============
+# jquery-patience
 
 Status
 -------
@@ -10,7 +9,6 @@ Introduction
 ------------
 
 I'm writing this plugin by a need as a developer, in my work we use a lot of Ajax calls to make things faster, but for every project we must
-
 
 Requirements
 ------------
