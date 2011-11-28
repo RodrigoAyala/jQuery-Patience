@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <title>jQuery-Patience Plugin</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="jquery-patience.min.js" type="text/javascript"></script>
+    
+    <meta name="patience" content="true">
+  </head>
+  <body>
+    <h1> jQuery-Patience plugin example </h1>
+
+    <script type="text/javascript">
+      for (i=0;i<50;i++){
+        document.write('<br/>');
+      }
+
+$(document).ready(function(){
+    $('#clickme').click(function(){
+      $.ajax({type: "Get" ,url: "http://www.github.com"});
+        return false;
+        });
+    });
+    </script>
+
+    <a href="#" id="clickme">Click Me</a>
+    <div id="container"></div>
+
+  </body>
+
+  </html>
