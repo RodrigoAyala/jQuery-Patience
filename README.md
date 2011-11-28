@@ -1,24 +1,21 @@
 # jquery-patience
 
-Status
--------
+## Status
 
 (27/11/2011) Not usable for now, the plugin it's in development. 
 
-Introduction
-------------
+## Introduction
 
 I'm writing this plugin by a need as a developer, in my work we use a lot of Ajax calls to make things faster, but for every project we must
 
-Requirements
-------------
+## Requirements
 
-* You must use jQuery (the lastest, much better)
+- You must use jQuery (the lastest, much better)
 
-* Only works with ajax calls
+- Only works with ajax calls
 
-How to use
-----------
+## How to use
 
 It's simple!, add the plugin to the HTML, and in the HEAD section, add this:
-    <meta name="patience" content="true">
+
+  <meta name="patience" content="true">
